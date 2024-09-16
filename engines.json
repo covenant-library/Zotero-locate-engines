@@ -1,0 +1,164 @@
+[
+	{
+		"_name": "Google Scholar",
+		"_alias": "Google Scholar",
+		"_description": "Google Scholar Search",
+		"_icon": "https://scholar.google.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://scholar.google.com/scholar?as_q=&as_epq={z:title}&as_occt=title&as_sauthors={rft:aufirst?}+{rft:aulast?}&as_ylo={z:year?}&as_yhi={z:year?}&as_sdt=1.&as_sdtp=on&as_sdtf=&as_sdts=22&",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://scholar.google.com/favicon.ico"
+	},
+	{
+		"_name": "Unpaywall",
+		"_alias": "Unpaywall",
+		"_description": "Unpaywall Lookup",
+		"_icon": "http://unpaywall.org/favicon.png",
+		"_hidden": false,
+		"_urlTemplate": "https://unpaywall.org/{z:DOI}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#"
+		},
+		"_iconSourceURI": "http://unpaywall.org/favicon.png"
+	},
+	{
+		"_name": "Covenant Catalog",
+		"_alias": "Covenant Catalog",
+		"_description": "Look up books in the Covenant library catalog",
+		"_icon": "https://www.covenantlibrary.org/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://covenant.searchmobius.org/search?option=advanced&query=title%3D%22{rft:title}%22%20AND%20contributors%3D%22{rft:aulast?}%22",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.covenantlibrary.org/favicon.ico"
+	},
+	{
+		"_name": "MOBIUS Catalog",
+		"_alias": "MOBIUS Catalog",
+		"_description": "Look up books in the MOBIUS union catalog",
+		"_icon": "https://mobiusconsortium.org/sites/default/files/MOBIUS_Mark.jpg",
+		"_hidden": false,
+		"_urlTemplate": "https://openrs.searchmobius.org/search?option=advanced&query=title%3D%22{rft:title}%22%20AND%20contributors%3D%22{rft:aulast?}%22",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://mobiusconsortium.org/sites/default/files/MOBIUS_Mark.jpg"
+	},
+	{
+		"_name": "Amazon.com",
+		"_alias": "Amazon.com",
+		"_description": "Look up books on Amazon.com",
+		"_icon": "http://www.amazon.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&unfiltered=1&field-author={rft:aulast?}&field-title={rft:title}&tag=seminabookst-20",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "http://www.amazon.com/favicon.ico"
+	},
+	{
+		"_name": "EBSCOhost Collection Manager",
+		"_alias": "EBSCOhost Collection Manager",
+		"_description": "Look up books in EBSCOhost Collection Manager",
+		"_icon": "https://ecm.ebscohost.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://ecm.ebscohost.com/Books/ResultList/DisplayPage?pageNumber=1&q=(TI%20%22{rft:title}%22)(AND%20AU%20%22{rft:aulast?}%22)",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://ecm.ebscohost.com/favicon.ico"
+	},
+	{
+		"_name": "GOBI",
+		"_alias": "GOBI",
+		"_description": "Look up books in GOBI",
+		"_icon": "https://www.gobi3.com/images/GOBI/webpageicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://www.gobi3.com/hx/Falcon.ashx?location=basicsearchsubmit&type=BusyPod&basicsearchinputtype=Keyword&basicsearchinputmode=AdvancedAll&basicsearchinput=%22{rft:title}%22%20{rft:aulast?}",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.gobi3.com/images/GOBI/webpageicon.ico"
+	},
+	{
+		"_name": "Christianbook",
+		"_alias": "Christianbook",
+		"_description": "Look up books on Christianbook",
+		"_icon": "https://g.christianbook.com/ns/img/favicon/fav.png",
+		"_hidden": false,
+		"_urlTemplate": "https://www.christianbook.com/Christian/Books/easy_find?Ntt=%22{rft:title}%22%20{rft:aulast?}&N=0&Ntk=keywords&action=Search&Ne=0&event=ESRCG&nav_search=1&cms=1&ps_exit=RETURN%7Clegacy&ps_domain=www",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://g.christianbook.com/ns/img/favicon/fav.png"
+	},
+	{
+		"_name": "Christianbook (ISBN)",
+		"_alias": "Christianbook (ISBN)",
+		"_description": "Look up books on Christianbook",
+		"_icon": "https://g.christianbook.com/ns/img/favicon/fav.png",
+		"_hidden": false,
+		"_urlTemplate": "https://www.christianbook.com/Christian/Books/easy_find?Ntt={rft:isbn}&N=0&Ntk=keywords&action=Search&Ne=0&event=ESRCG&nav_search=1&cms=1&ps_exit=RETURN%7Clegacy&ps_domain=www",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://g.christianbook.com/ns/img/favicon/fav.png"
+	},
+	{
+		"_name": "Westminster Bookstore",
+		"_alias": "Westminster Bookstore",
+		"_description": "Look up books on the Westminster Bookstore",
+		"_icon": "https://cdn.shopify.com/s/files/1/0021/5210/3983/files/favicon_32x.png",
+		"_hidden": false,
+		"_urlTemplate": "https://www.wtsbooks.com/collections/search-result?type=product&q=%22{rft:title}%22%20{rft:aulast?}",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://cdn.shopify.com/s/files/1/0021/5210/3983/files/favicon_32x.png"
+	},
+	{
+		"_name": "DuckDuckGo",
+		"_alias": "DuckDuckGo",
+		"_description": "DuckDuckGo Search",
+		"_icon": "https://duckduckgo.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://duckduckgo.com/?q={rft:title}+{rft:aulast?}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://duckduckgo.com/favicon.ico"
+	}
+]
