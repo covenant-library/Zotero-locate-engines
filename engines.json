@@ -148,6 +148,36 @@
 		"_iconSourceURI": "https://cdn.shopify.com/s/files/1/0021/5210/3983/files/favicon_32x.png"
 	},
 	{
+		"_name": "BookFinder",
+		"_alias": "BookFinder",
+		"_description": "Look up books on BookFinder",
+		"_icon": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://www.bookfinder.com/search/?st=sr&ac=qr&mode=basic&author={rft:aulast?}&title={rft:title}&isbn=&lang=en&destination=us&currency=USD&binding=*&keywords=&publisher=&min_year=&max_year=&minprice=&maxprice=&classic=off",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico"
+	},
+	{
+		"_name": "BookFinder (ISBN)",
+		"_alias": "BookFinder (ISBN)",
+		"_description": "Look up books on BookFinder",
+		"_icon": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://www.bookfinder.com/search/?st=sr&ac=qr&mode=basic&author=&title=&isbn={rft:isbn}&lang=en&destination=us&currency=USD&binding=*&keywords=&publisher=&min_year=&max_year=&minprice=&maxprice=&classic=off",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico"
+	},
+	{
 		"_name": "DuckDuckGo",
 		"_alias": "DuckDuckGo",
 		"_description": "DuckDuckGo Search",
