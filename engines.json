@@ -58,6 +58,21 @@
 		"_iconSourceURI": "https://mobiusconsortium.org/sites/default/files/MOBIUS_Mark.jpg"
 	},
 	{
+		"_name": "WorldCat",
+		"_alias": "WorldCat",
+		"_description": "Look up books in WorldCat",
+		"_icon": "https://search.worldcat.org/favicons/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://search.worldcat.org/search?q=ti%3A{rft:title}+AND+au%3A{rft:aulast?}",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://search.worldcat.org/favicons/favicon.ico"
+	},
+	{
 		"_name": "Amazon.com",
 		"_alias": "Amazon.com",
 		"_description": "Look up books on Amazon.com",
@@ -136,16 +151,16 @@
 		"_name": "Westminster Bookstore",
 		"_alias": "Westminster Bookstore",
 		"_description": "Look up books on the Westminster Bookstore",
-		"_icon": "https://cdn.shopify.com/s/files/1/0021/5210/3983/files/favicon_32x.png",
+		"_icon": "https://www.wtsbooks.com/cdn/shop/files/gold-favicon.png?crop=center&height=48&v=1727265347&width=48",
 		"_hidden": false,
-		"_urlTemplate": "https://www.wtsbooks.com/collections/search-result?type=product&q=%22{rft:title}%22%20{rft:aulast?}",
+		"_urlTemplate": "https://www.wtsbooks.com/search?options[prefix]=last&q=%22{rft:title}%22%20{rft:aulast?}&filter.p.product_type=",
 		"_urlParams": [],
 		"_method": "GET",
 		"_urlNamespaces": {
 			"rft": "info:ofi/fmt:kev:mtx:book",
 			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
 		},
-		"_iconSourceURI": "https://cdn.shopify.com/s/files/1/0021/5210/3983/files/favicon_32x.png"
+		"_iconSourceURI": "https://www.wtsbooks.com/cdn/shop/files/gold-favicon.png?crop=center&height=48&v=1727265347&width=48"
 	},
 	{
 		"_name": "BookFinder",
