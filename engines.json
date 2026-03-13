@@ -118,8 +118,8 @@
 		"_iconSourceURI": "https://www.gobi3.com/images/GOBI/webpageicon.ico"
 	},
 	{
-		"_name": "Christianbook",
-		"_alias": "Christianbook",
+		"_name": "Christianbook (Author/Title)",
+		"_alias": "Christianbook (Author/Title)",
 		"_description": "Look up books on Christianbook",
 		"_icon": "https://g.christianbook.com/ns/img/favicon/fav.png",
 		"_hidden": false,
@@ -163,10 +163,10 @@
 		"_iconSourceURI": "https://www.wtsbooks.com/cdn/shop/files/gold-favicon.png?crop=center&height=48&v=1727265347&width=48"
 	},
 	{
-		"_name": "BookFinder",
-		"_alias": "BookFinder",
+		"_name": "BookFinder (Author/Title)",
+		"_alias": "BookFinder (Author/Title)",
 		"_description": "Look up books on BookFinder",
-		"_icon": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico",
+		"_icon": "https://www.bookfinder.com/favicon.ico",
 		"_hidden": false,
 		"_urlTemplate": "https://www.bookfinder.com/search/?st=sr&ac=qr&mode=basic&author={rft:aulast?}&title={rft:title}&isbn=&lang=en&destination=us&currency=USD&binding=*&keywords=&publisher=&min_year=&max_year=&minprice=&maxprice=&classic=off",
 		"_urlParams": [],
@@ -175,13 +175,13 @@
 			"rft": "info:ofi/fmt:kev:mtx:book",
 			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
 		},
-		"_iconSourceURI": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico"
+		"_iconSourceURI": "https://www.bookfinder.com/favicon.ico"
 	},
 	{
 		"_name": "BookFinder (ISBN)",
 		"_alias": "BookFinder (ISBN)",
 		"_description": "Look up books on BookFinder",
-		"_icon": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico",
+		"_icon": "https://www.bookfinder.com/favicon.ico",
 		"_hidden": false,
 		"_urlTemplate": "https://www.bookfinder.com/search/?st=sr&ac=qr&mode=basic&author=&title=&isbn={rft:isbn}&lang=en&destination=us&currency=USD&binding=*&keywords=&publisher=&min_year=&max_year=&minprice=&maxprice=&classic=off",
 		"_urlParams": [],
@@ -190,7 +190,37 @@
 			"rft": "info:ofi/fmt:kev:mtx:book",
 			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
 		},
-		"_iconSourceURI": "https://d3uahvj51kpljk.cloudfront.net/favicon.ico"
+		"_iconSourceURI": "https://www.bookfinder.com/favicon.ico"
+	},
+	{
+		"_name": "Thriftbooks (Author/Title)",
+		"_alias": "Thriftbooks(Author/Title)",
+		"_description": "Look up books on Thriftbooks",
+		"_icon": "https://static.thriftbooks.com/images/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://www.thriftbooks.com/browse/?b.search=%22{rft:title}%22%20{rft:aulast?}#b.s=topMatches-desc&b.p=1&b.pp=50&b.oos&b.tile",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://static.thriftbooks.com/images/favicon.ico"
+	},
+	{
+		"_name": "Thriftbooks (ISBN)",
+		"_alias": "Thriftbooks (ISBN)",
+		"_description": "Look up books on Thriftbooks",
+		"_icon": "https://static.thriftbooks.com/images/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://www.thriftbooks.com/browse/?b.search={rft:isbn}#b.s=topMatches-desc&b.p=1&b.pp=50&b.oos&b.tile",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"xmlns": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://static.thriftbooks.com/images/favicon.ico"
 	},
 	{
 		"_name": "DuckDuckGo",
